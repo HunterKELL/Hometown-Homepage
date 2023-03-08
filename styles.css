@@ -1,0 +1,128 @@
+/* Global Variables */
+:root {
+    --color1: #3066BE;
+    --color2: #60AFFF;
+    --color3: #99FAFF;
+    --color4: #D6FDFF;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Resize for all images */
+img {
+    width: 300px;
+}
+
+/* Hero */
+#hero {
+    background-image: url("https://img.trackhs.com/1200x720/https://track-pm.s3.amazonaws.com/amilocals/image/d6d75f91-06a4-4ab1-9582-e27fe2a7c3be");
+    background-size: cover;
+    height: 495px;
+    padding: 10px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-header-text {
+    font-size: 40px;
+}
+
+#hero-description {
+    font-size: 27px;
+    width: 600px;
+}
+
+.header-text {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: var(--color2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 2px white solid;
+}
+
+/* Activities */
+#activities {
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#activities-header-div{
+    background-color: var(--color3); /* For matching activites div */
+}
+
+#activities-header {
+    display: inline-block; /* Stop text from expanding across page */
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: var(--color1);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border-bottom: 2px white solid;
+}
+
+.activities-div {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.activities-img {
+    border-radius: 50px;
+    border: 5px var(--color1) solid;
+}
+
+.activities-div > h3 {
+    color: black;
+    font-size: 22px;
+}
+
+.activities-text {
+    color: black;
+    font-size: 17px;
+}
+
+/* Guide */
+#guide-section {
+    width: 500px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: var(--color4);
+    border-radius: 20px;
+    border: 2px white solid;
+}
+
+#guide-img {
+    padding: 20px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+#guide-details-div > h3 {
+    font-size: 35px;
+}
+
+#guide-details-div > p {
+    font-size: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+#guide-details-div > h4 {
+    font-size: 20px;
+    margin-top: 45px;
+}
